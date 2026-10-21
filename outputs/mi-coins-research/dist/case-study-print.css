@@ -1,0 +1,4 @@
+.case-study .case-chapter{scroll-margin-top:calc(var(--case-nav-height) + 20px)}
+.case-wireframe-print{display:none}
+@media print{.case-wireframe-print{display:block;width:100%;height:auto;max-width:100%}.case-study .case-chapter{overflow:visible!important}.case-study .wf-scheme{overflow:visible!important}.case-study .case-chapter>section:first-child{break-before:auto!important}}
+@media print{.case-study .final-artwork img,.case-print-prototypes img,.case-wireframe-print{max-height:215mm!important;object-fit:contain!important}.case-study .final-artwork h2{font-size:18px}.case-study .final-artwork p,.case-study .final-artwork figcaption{font-size:9px}.case-study .wf-scheme h2{font-size:17px}.case-study .wf-scheme-head{margin-bottom:6px}.case-study .wf-scheme figcaption{font-size:9px}}
