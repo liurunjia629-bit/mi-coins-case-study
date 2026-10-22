@@ -11,7 +11,7 @@ Run the existing project preview server from the workspace root: `node work/prev
 
 ## Sources and fidelity
 
-A1.png (1568 × 3968) and B1.png (1568 × 4592) are copied without visual modification from the designer's exports. They are the visual reference. Figma frames 7:3 and 41:319 supplied layout measurements and original image/SVG assets. The exported PNGs contain updated labels compared with the retrieved Figma context; visible labels follow the PNGs. HTML prototypes use genuine components and original assets, not screenshot hotspots.
+A1.png (1568 × 3968) and B1.png (1568 × 4756) are copied without visual modification from the designer's exports. They are the visual reference. Figma frames 7:3 and 41:319 supplied layout measurements and original image/SVG assets. The exported PNGs contain updated labels compared with the retrieved Figma context; visible labels follow the PNGs. HTML prototypes use genuine components and original assets, not screenshot hotspots.
 
 Figma source: https://www.figma.com/design/7AOi6exOBVyEeFMpdWoTbG/Mi-Coins?node-id=0-1
 
@@ -31,3 +31,5 @@ A live Figma **prototype** share URL has not been supplied. The real design-file
 - Calculation checks cover 21,747 initial shortfall, 21,647 after completion, redeemable 8,000/200 rewards, progress capped at 100%, and idempotent crediting.
 - Browser checks cover goal sheet selection/closing, PUBG sheet, completion, A/B shared balance, reset, embedded and standalone views, image/font loading, and narrow viewport sizing.
 - Usability and conversion research is a future validation plan; no real tests or experiment results are claimed.
+
+Latest sync: Figma A1 80:2 and B1 80:167. Main ink #292929; latest auto-layout spacing and original Figma frame exports. Interaction business logic preserved.
