@@ -7,7 +7,7 @@
   function chapter(id,label,nodes){const c=document.createElement('div');c.id=id;c.className='case-chapter';c.setAttribute('aria-label',label);nodes.filter(Boolean).forEach(n=>c.append(n));main.append(c);chapters.push(c);return c;}
   const market=$('#research');market.id='market-research';
   chapter('research','01 研究',[$('#top'),market]);
-  chapter('ux-audit','02 体验诊断',[$('#audit'),$('#priority')]);
+  chapter('ux-audit','02 体验诊断',[$('#audit'),$('#user-journey'),$('#priority')]);
   const strategy=$('#strategy');strategy.classList.add('case-chapter');strategy.setAttribute('aria-label','03 设计策略');main.append(strategy);chapters.push(strategy);
   const wfBody=wireframes.querySelector('.wf-body'),wfParts=[...wfBody.children];
   const handoff=wfParts.filter(n=>n.querySelector?.('#wf-final')||n.querySelector?.('#wf-prototype'));
