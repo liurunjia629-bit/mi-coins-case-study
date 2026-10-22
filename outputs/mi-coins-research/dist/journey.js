@@ -25,6 +25,6 @@
     <div class="journey-transition"><div class="eyebrow orange">From Insights to Design Strategy</div><h3>从潜在体验阻碍，到核心重构判断。</h3><p>结合俄罗斯消费者对奖励价值和获取便利性的关注，以及 Mi Coins 中心页的启发式评估，本次重构将重点改善三个环节：奖励价值识别、任务参与决策和状态反馈。通过更明确的奖励目标与任务行动关系，探索兼顾游戏激活量与积分兑换转化率的设计方案。</p><a href="#strategy">进入核心重构判断 →</a></div>`;
   document.querySelector('#priority').before(section);
   const disclosure = document.createElement('p');
-  disclosure.textContent = '使用 AI 辅助整理二手市场研究、构建假设性用户旅程图并实现网页展示。用户旅程未经过真实用户访谈或测试验证，属于基于现有资料的设计推演。最终高保真 UI 由设计师本人在 Figma 完成。';
+  disclosure.textContent = '使用 AI 辅助整理二手市场研究、构建假设性用户旅程图并实现网页展示。用户旅程未经过真实用户访谈或测试验证，属于基于现有资料的设计推演。最终高保真 UI 由刘润佳本人在 Figma 完成。';
   document.querySelector('#sources .ai').append(disclosure);
 })();
